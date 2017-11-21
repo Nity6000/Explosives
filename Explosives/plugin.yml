@@ -1,0 +1,96 @@
+main: com.nity6000.explosives.Main
+version: 1.1 Release
+name: Explosives
+author: Nity6000
+description: Adds Explosives :D
+
+commands:
+  firegrenade:
+    usage: /<command> [playername]
+    aliases: [fg, grenadefire]
+    description: firegrenades a player
+ 
+  watergrenade:
+    usage: /<command> [playername]
+    aliases: [wg, grenadewater]
+    description: watergrenades a player
+  grenade:
+    usage: /<command> [playername]
+    aliases: [g, grenadenormal]
+    description: A traditional grenade
+  lavagrenade:
+    usage: /<command> [playername]
+    aliases: [lg, grenadelava]
+    description: A lava grenade  
+  firebomb: 
+    usage: /<command> [playername]
+    aliases: [fb, bombfire]
+    description: Fire Bombs a player  
+  waterbomb:
+    usage: /<command> [playername]
+    aliases: [wb, bombwater]
+    description: Water Bombs a player
+  lavabomb: 
+    usage: /<command> [playername]
+    aliases: [lb, bomblava]
+    description: Lava Bombs a player
+  bomb: 
+    usage: /<command> [playername]
+    aliases: [b, bombnormal]
+    description: Bombs a player
+  medkit:
+    usage: /<command>
+    aliases: [kitmed, mk]
+    description: Gives a Medkit
+  medkitheal:
+    aliases: [healmedkit, mh]
+    description: Heals if a medkit is placed
+
+permissions:
+    bomb:
+        description: Allows use of all bombs
+        default: op
+    bomb.fire:
+        description: Allows use of Fire Bombs
+        default: op
+    bomb.lava:
+        description: Allows use of Lava Bombs
+        default: op
+    bomb.water:
+        description: Allows use of Water Bombs
+        default: op
+    bomb.normal:
+        description: Allows use of Normal Bombs
+        default: op
+    grenade:
+        description: Allows use of all Grenades
+        default: op
+    grenade.fire:
+        description: Allows use of Fire Grenades
+        default: op
+    grenade.lava:
+        description: Allows use of Lava Grenades
+        default: op
+    grenade.water:
+        description: Allows use of Water Grenades
+        default: op
+    grenade.normal:
+        description: Allows use of Normal Grenades
+        default: op
+    medkit.give:
+      description: Allows Medkits to be given
+      default: op
+    medkit.heal:
+      description: Allows use of medkit
+      default: true
+
+
+
+
+
+
+
+
+
+
+
